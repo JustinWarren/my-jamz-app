@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-jamz-app/static/css/main.5f361e03.chunk.css",
+    "main.js": "/my-jamz-app/static/js/main.7fad8ece.chunk.js",
+    "main.js.map": "/my-jamz-app/static/js/main.7fad8ece.chunk.js.map",
+    "runtime-main.js": "/my-jamz-app/static/js/runtime-main.8bdc43e4.js",
+    "runtime-main.js.map": "/my-jamz-app/static/js/runtime-main.8bdc43e4.js.map",
+    "static/js/2.4f5846ff.chunk.js": "/my-jamz-app/static/js/2.4f5846ff.chunk.js",
+    "static/js/2.4f5846ff.chunk.js.map": "/my-jamz-app/static/js/2.4f5846ff.chunk.js.map",
+    "index.html": "/my-jamz-app/index.html",
+    "precache-manifest.2dc598c9e4c11f2c3b4ae75bb1883ad1.js": "/my-jamz-app/precache-manifest.2dc598c9e4c11f2c3b4ae75bb1883ad1.js",
+    "service-worker.js": "/my-jamz-app/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/my-jamz-app/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4f5846ff.chunk.js.LICENSE.txt": "/my-jamz-app/static/js/2.4f5846ff.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/my-jamz-app/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8bdc43e4.js",
+    "static/js/2.4f5846ff.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.7fad8ece.chunk.js"
+  ]
+}
