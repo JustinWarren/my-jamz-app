@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Songs from "./components/Songs.js" //This imports the Songs component from the components folder so that it can be used in App.js
 import { FaChess } from 'react-icons/fa';  //This is how you import a FontAwesome icon to be used!
 
 
@@ -10,6 +11,8 @@ class App extends Component {
     return (
       <div className="App">
         <h1>My Jamz App</h1>
+        <button className="btn btn-warning">Hello!</button>
+        <Songs />
       </div>
     );
   }
