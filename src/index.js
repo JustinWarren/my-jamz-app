@@ -1,9 +1,11 @@
+//THIS IS THE ENTRY POINT FOR REACT
+//REACT, REACTDOM AND MAIN APP COMPONENT(LINE 6) ARE IMPORTED HERE
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
+//THIS RENDERS THE APP(APP.JS) ELEMENT INTO THE DIV WITH ID OF ROOT IN INDEX.HTML
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -11,7 +13,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
