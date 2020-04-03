@@ -7,12 +7,33 @@ import { FaChess } from 'react-icons/fa';  //This is how you import a FontAwesom
 //render() is a lifecycle method - its required because it renders component in browser
 //Need to use className attribute instead of class in JSX
 class App extends Component {
+  state = {
+    songs: [{
+      id: 1,
+      title: "Billy Jean",
+      artist: "Michael Jackson",
+      length: "3:34"
+    },
+    {
+      id: 2,
+      title: "Gettin' Jiggy with It",
+      artist: "Will Smith",
+      length: "4:34"
+    },
+    {
+      id: 2,
+      title: "Happy",
+      artist: "Pharrell",
+      length: "5:25"
+    }
+  
+    ]
+  }
+  
   render() {
     return (
       <div className="App">
-        <h1>My Jamz App</h1>
-        <button className="btn btn-warning">Hello!</button>
-        <Songs />
+        <Songs songs={this.state.songs}/>  {/*This is the format format for passing state to components*/}
       </div>
     );
   }
